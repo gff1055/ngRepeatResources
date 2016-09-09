@@ -1,0 +1,23 @@
+<!-- Habilitando o ANGULAR JS. Permite o uso das propriedades Angular JS.
+As tags abaixo de <HTML> terão seu comportamento alterado -->
+<html ng-app = "appNgRepeatResource">
+	
+	<head>
+
+		<!-- Incluindo a biblioteca ANGULAR JS através de um endereço CDN -->
+		<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+		<script src = "app.js"></script>
+
+		<!--para usar $resources é necessario adicionar o arquivo angular-resource.js-->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-resource.js"> </script>
+
+	</head>
+
+	<body>
+		<a href = "#/procura">Procurar linguagem</a>
+		<a href = "#/lista">Listar as linguagens</a>
+		<a href = "#/salvar">Salvar linguagem</a>
+		<a href = "#/excluir">Deletar linguagem</a>
+		<div ng-view></div>
+	</body>
+</html>

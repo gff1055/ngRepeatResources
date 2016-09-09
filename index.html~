@@ -1,0 +1,17 @@
+<html ng-app = "appNgRepeatResource">
+	<head>
+		<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+		<script src = "app.js"></script>
+
+		<!--para usar $resources é necessario adicionar o arquivo angular-resource.js-->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-resource.js"> </script>
+	</head>
+
+	<body>
+		<a></a>
+		<a></a>
+		<a></a>
+		<a></a>
+		<div ng-view></div>
+	</body>
+</html>
